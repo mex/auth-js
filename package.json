@@ -1,0 +1,25 @@
+{
+  "name": "auth",
+  "version": "1.0.0",
+  "description": "Authorization token generator in JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mex/auth-js.git"
+  },
+  "author": "Michael Storgaard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mex/auth-js/issues"
+  },
+  "homepage": "https://github.com/mex/auth-js",
+  "dependencies": {
+    "crypto": "0.0.3"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  }
+}
